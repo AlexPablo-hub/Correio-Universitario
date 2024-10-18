@@ -1,3 +1,2 @@
-2024/10/18-18:19:23.534 9c0 Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\Service Worker\Database/MANIFEST-000001
-2024/10/18-18:19:23.535 9c0 Recovering log #3
-2024/10/18-18:19:23.536 9c0 Reusing old log C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\Service Worker\Database/000003.log 
+2024/10/18-18:28:52.049 2920 Creating DB C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\Service Worker\Database since it was missing.
+2024/10/18-18:28:52.086 2920 Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\Service Worker\Database/MANIFEST-000001

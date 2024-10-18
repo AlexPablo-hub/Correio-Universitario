@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #C03A5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Garante que a altura mínima do body seja 100% da viewport */
+    flex-direction: column;
+    position: relative;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Adiciona uma margem superior para evitar o corte */
+    overflow: hidden;
+}
+
+.circle img {
+    width: 120%;
+    height: 120%;
+    object-fit: cover;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+.content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: -20px; /* Ajusta a margem superior */
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #1d1c1c;
+    margin: 0;
+}
+
+.content p {
+    font-size: 14px;
+    color: #888888;
+    margin: 10px 0 20px;
+}
+
+.button {
+    background: linear-gradient(45deg, #C03A5E, #E94E77);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Ajuste de checkbox e link */
+.terms input[type="checkbox"] {
+    accent-color: #E94E77;
+}
+
+.terms a {
+    color: #E94E77;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries para telas menores */
+@media (max-width: 600px) {
+    .circle {
+        width: 200px;
+        height: 200px;
+        transform: translateY(0); /* Remove a elevação para evitar corte em telas pequenas */
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 22px;
+    }
+
+    .content p {
+        font-size: 14px;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+}

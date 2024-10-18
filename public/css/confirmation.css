@@ -1,0 +1,101 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #C03A5E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Ícone de check verde */
+.check-icon {
+    font-size: 50px;
+    color: #2ECC71;
+    margin-bottom: 20px;
+}
+
+/* Mensagem principal */
+.message {
+    font-size: 20px;
+    color: #333333;
+    margin: 10px 0 30px 0;
+    font-weight: bold;
+}
+
+/* Estilo do envelope */
+.envelope {
+    background-color: #E94E77;
+    border-radius: 20px;
+    width: 80%;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Texto à esquerda e à direita do envelope */
+.text-left, .text-right {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    font-weight: bold;
+}
+
+.text-left {
+    left: 20px;
+    top: 20px;
+    writing-mode: vertical-rl; /* Coloca o texto na vertical */
+}
+
+.text-right {
+    right: 20px;
+    bottom: 20px;
+    writing-mode: vertical-rl;
+}
+
+/* Ícone de coração no envelope */
+.heart {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Botão de voltar */
+.button {
+    display: inline-block;
+    background-color: #C03A5E;
+    color: white;
+    font-size: 16px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #A32E50;
+}

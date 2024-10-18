@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## 💌 Correio Elegante Universitário
 
 **Correio Elegante Universitário Online** é um projeto desenvolvido para permitir que alunos enviem mensagens anônimas (ou identificadas) com a possibilidade de adicionar um doce.

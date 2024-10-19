@@ -1,22 +1,14 @@
-2024/10/18-18:40:02.898 253c Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/18-18:40:02.898 253c Recovering log #48
-2024/10/18-18:40:02.913 253c Reusing old log C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000048.log 
-2024/10/18-18:40:05.216 2324 Level-0 table #54: started
-2024/10/18-18:40:05.244 2324 Level-0 table #54: 146757 bytes OK
-2024/10/18-18:40:05.251 2324 Delete type=0 #48
-2024/10/18-18:40:05.252 1304 Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/18-18:40:05.254 2324 Level-0 table #56: started
-2024/10/18-18:40:05.287 2324 Level-0 table #56: 446 bytes OK
-2024/10/18-18:40:05.294 2324 Delete type=0 #53
-2024/10/18-18:40:05.295 2324 Manual compaction at level-0 from '\x00\x19\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x19\x00\x00\x05' @ 149643 : 0
-2024/10/18-18:40:05.295 2324 Compacting 1@0 + 1@1 files
-2024/10/18-18:40:05.310 2324 Generated table #57@0: 3450 keys, 80521 bytes
-2024/10/18-18:40:05.310 2324 Compacted 1@0 + 1@1 files => 80521 bytes
-2024/10/18-18:40:05.317 2324 compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/18-18:40:05.317 2324 Delete type=2 #56
-2024/10/18-18:40:05.318 2324 Manual compaction at level-0 from '\x00\x19\x00\x00\x05' @ 149643 : 0 .. '\x00\x1a\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/18-18:40:07.176 253c Compacting 1@1 + 1@2 files
-2024/10/18-18:40:07.301 253c Generated table #58@1: 30344 keys, 1191668 bytes
-2024/10/18-18:40:07.301 253c Compacted 1@1 + 1@2 files => 1191668 bytes
-2024/10/18-18:40:07.308 253c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/10/18-18:40:07.309 253c Delete type=2 #54
+2024/10/18-20:14:09.655 2d90 Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/18-20:14:09.655 2d90 Recovering log #62
+2024/10/18-20:14:09.675 2d90 Reusing old log C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000062.log 
+2024/10/18-20:14:11.808 27d0 Manual compaction at level-0 from '\x00\x1c\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1d\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/18-20:14:11.817 2b70 Level-0 table #68: started
+2024/10/18-20:14:11.840 2b70 Level-0 table #68: 161086 bytes OK
+2024/10/18-20:14:11.850 2b70 Delete type=0 #62
+2024/10/18-20:14:11.913 2b70 Manual compaction at level-0 from '\x00\x1d\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1e\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/18-20:14:13.663 540 Compacting 1@1 + 1@2 files
+2024/10/18-20:14:13.893 540 Generated table #69@1: 31827 keys, 1246285 bytes
+2024/10/18-20:14:13.893 540 Compacted 1@1 + 1@2 files => 1246285 bytes
+2024/10/18-20:14:13.905 540 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/18-20:14:13.906 540 Delete type=2 #65
+2024/10/18-20:14:13.906 540 Delete type=2 #68

@@ -1,26 +1,26 @@
-2024/10/18-18:35:06.444 2138 Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/10/18-18:35:06.444 2138 Recovering log #42
-2024/10/18-18:35:06.448 2138 Reusing old log C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000042.log 
-2024/10/18-18:35:06.448 2138 Delete type=2 #41
-2024/10/18-18:35:06.448 2138 Delete type=2 #43
-2024/10/18-18:35:09.466 230c Level-0 table #47: started
-2024/10/18-18:35:09.488 230c Level-0 table #47: 67481 bytes OK
-2024/10/18-18:35:09.495 230c Delete type=0 #42
-2024/10/18-18:35:09.496 230c Manual compaction at level-0 from '\x00\x16\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x17\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/18-18:35:09.497 230c Level-0 table #49: started
-2024/10/18-18:35:09.521 230c Level-0 table #49: 445 bytes OK
-2024/10/18-18:35:09.528 230c Delete type=0 #46
-2024/10/18-18:35:09.536 230c Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at '\x00\x17\x00\x00\x05' @ 143705 : 0
-2024/10/18-18:35:09.536 230c Compacting 1@0 + 1@1 files
-2024/10/18-18:35:09.548 230c Generated table #50@0: 1251 keys, 37189 bytes
-2024/10/18-18:35:09.548 230c Compacted 1@0 + 1@1 files => 37189 bytes
-2024/10/18-18:35:09.555 230c compacted to: files[ 0 1 1 0 0 0 0 ]
-2024/10/18-18:35:09.556 230c Delete type=2 #49
-2024/10/18-18:35:09.556 230c Manual compaction at level-0 from '\x00\x17\x00\x00\x05' @ 143705 : 0 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/10/18-18:35:11.519 252c Compacting 1@1 + 1@2 files
-2024/10/18-18:35:11.570 252c Generated table #51@1: 29256 keys, 1157263 bytes
-2024/10/18-18:35:11.570 252c Compacted 1@1 + 1@2 files => 1157263 bytes
-2024/10/18-18:35:11.580 252c compacted to: files[ 0 0 1 0 0 0 0 ]
-2024/10/18-18:35:11.581 252c Delete type=2 #44
-2024/10/18-18:35:11.581 252c Delete type=2 #47
-2024/10/18-18:35:11.581 252c Delete type=2 #50
+2024/10/18-20:10:22.129 2f64 Reusing MANIFEST C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/10/18-20:10:22.143 2f64 Recovering log #55
+2024/10/18-20:10:22.144 2f64 Reusing old log C:\Users\olive\Documents\CorreioUniversitario\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000055.log 
+2024/10/18-20:10:22.144 2f64 Delete type=2 #51
+2024/10/18-20:10:22.144 2f64 Delete type=2 #57
+2024/10/18-20:10:26.823 28d0 Level-0 table #61: started
+2024/10/18-20:10:26.840 28d0 Level-0 table #61: 29438 bytes OK
+2024/10/18-20:10:26.850 28d0 Delete type=0 #55
+2024/10/18-20:10:26.851 28d0 Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/18-20:10:26.853 28d0 Level-0 table #63: started
+2024/10/18-20:10:26.929 28d0 Level-0 table #63: 449 bytes OK
+2024/10/18-20:10:26.936 28d0 Delete type=0 #60
+2024/10/18-20:10:26.937 28d0 Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 151068 : 0
+2024/10/18-20:10:26.937 28d0 Compacting 1@0 + 1@1 files
+2024/10/18-20:10:26.966 28d0 Generated table #64@0: 824 keys, 17892 bytes
+2024/10/18-20:10:26.966 28d0 Compacted 1@0 + 1@1 files => 17892 bytes
+2024/10/18-20:10:26.972 28d0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/18-20:10:26.973 28d0 Delete type=2 #63
+2024/10/18-20:10:26.973 28d0 Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 151068 : 0 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/10/18-20:10:28.870 2f04 Compacting 1@1 + 1@2 files
+2024/10/18-20:10:28.948 2f04 Generated table #65@1: 30644 keys, 1202063 bytes
+2024/10/18-20:10:28.948 2f04 Compacted 1@1 + 1@2 files => 1202063 bytes
+2024/10/18-20:10:28.955 2f04 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/10/18-20:10:28.955 2f04 Delete type=2 #58
+2024/10/18-20:10:28.955 2f04 Delete type=2 #61
+2024/10/18-20:10:28.955 2f04 Delete type=2 #64

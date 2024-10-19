@@ -1,8 +1,14 @@
 const express = require('express'); // Framework web para Node.js
 const path = require('path'); // Módulo para lidar com caminhos de arquivos
-const { Client, LocalAuth } = require('whatsapp-web.js'); // Usar LocalAuth para gerenciar a sessão automaticamente
-const qrcode = require('qrcode-terminal'); // Módulo para gerar QR code no terminal
+const qrcode = require('qrcode-terminal');
+const { Client } = require('whatsapp-web.js');
 
+const client = new Client({
+    puppeteer: {
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        executablePath: process.env.CHROME_BIN || null, // Garantir que o Puppeteer encontre o Chromium
+    }
+});
 
 const app = express(); // Inicializa o servidor Express
 app.use(express.json()); // Middleware para decodificar JSON
@@ -17,11 +23,6 @@ function bloquearAcessoDireto(req, res, next) {
         res.redirect('/');
     }
 }
-
-// Inicializa o cliente do WhatsApp com gerenciamento automático de sessão
-const client = new Client({
-    authStrategy: new LocalAuth() // Salva a sessão localmente para evitar escanear o QR code novamente
-});
 
 client.on('qr', (qr) => {
     // Exibe o QR code no terminal para conexão ao WhatsApp Web

@@ -301,7 +301,6 @@ app.get('/confirmacao', bloquearAcessoDireto, (req, res) => {
 app.use(express.urlencoded({ extended: true })); // Middleware para decodificar os dados enviados via formulário
 
 // Iniciar o servidor na porta 8000
-const port = process.env.PORT || 8000;
 app.listen(8000, '0.0.0.0', () => {
     console.log(`Servidor rodando na porta 8000`);
 });

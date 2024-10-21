@@ -2,6 +2,26 @@
 
 **Correio Elegante Universitário Online** é um projeto desenvolvido para permitir que alunos enviem mensagens anônimas (ou identificadas) com a possibilidade de adicionar um doce.
 
+## 📱 Telas do app
+Aqui estão algumas capturas de tela do app **Correio Universitário**
+
+#### Tela Inicial
+
+<img src="./public/img/telas/home.jpg" alt="Tela Inicial" width="300"/>
+
+#### Tela do App
+
+<img src="./public/img/telas/app1.jpg" alt="Tela App" width="300"/>
+<img src="./public/img/telas/app2.jpg" alt="Tela App 2" width="300"/>
+
+#### Tela de Confirmação
+
+<img src="./public/img/telas/confirmação.jpg" alt="Tela Confirmação" width="300"/>
+
+#### Tela do WhatsApp
+
+<img src="./public/img/telas/whatsapp.jpg" alt="Tela WhatsApp" width="300"/>
+
 ## 🎯 Funcionalidades
 - **Página Inicial:** O usuário acessa a página principal e clica no botão "COMEÇAR".
 - **Formulário de Pedido:** Na página do formulário, o usuário preenche os campos obrigatórios: nome, telefone, sala, destinatário e mensagem.

@@ -13,13 +13,9 @@ Aqui estão algumas capturas de tela do app **Correio Universitário**
 
 <img src="./public/img/telas/app1.jpg" alt="Tela App" width="300"/> <img src="./public/img/telas/app2.jpg" alt="Tela App 2" width="300"/>
 
-#### Tela de Confirmação
+#### Tela de Confirmação e WhatsApp
 
-<img src="./public/img/telas/confirmação.jpg" alt="Tela Confirmação" width="300"/>
-
-#### Tela do WhatsApp
-
-<img src="./public/img/telas/whatsapp.jpg" alt="Tela WhatsApp" width="300"/>
+<img src="./public/img/telas/confirmação.jpg" alt="Tela Confirmação" width="300"/> <img src="./public/img/telas/whatsapp.jpg" alt="Tela WhatsApp" width="300"/>
 
 ## 🎯 Funcionalidades
 - **Página Inicial:** O usuário acessa a página principal e clica no botão "COMEÇAR".

@@ -7,11 +7,11 @@ Aqui estão algumas capturas de tela do app **Correio Universitário**
 
 #### Tela Inicial
 
-<img src="./public/img/telas/home.jpg" alt="Tela Inicial" width="300"/>
-
-#### Tela do App
+<img src="./public/img/telas/home.jpg" alt="Tela Inicial" width="300"/> #### Tela do App
 
 <img src="./public/img/telas/app1.jpg" alt="Tela App" width="300"/> <img src="./public/img/telas/app2.jpg" alt="Tela App 2" width="300"/>
+
+
 
 
 #### Tela de Confirmação

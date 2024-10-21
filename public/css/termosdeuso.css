@@ -1,66 +1,74 @@
 /* Resetando margens e padding padrões */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    background-color: #C03A5E; /* Fundo rosa */
-    color: white; /* Texto em branco */
-    display: flex;
-    justify-content: center; /* Centraliza o container horizontalmente */
-    align-items: center; /* Centraliza o container verticalmente */
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #C03A5E;
+  /* Fundo rosa */
+  color: white;
+  /* Texto em branco */
+  display: flex;
+  justify-content: center;
+  /* Centraliza o container horizontalmente */
+  align-items: center;
+  /* Centraliza o container verticalmente */
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Fundo semi-transparente */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+  /* Alinhamento do texto à esquerda */
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+p, ul {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: justify;
+  /* Justifica o texto das tags <p> */
+}
+
+ul {
+  text-align: justify;
+  /* Alinhamento à esquerda para as listas */
+}
+
+strong {
+  color: #f0f0f0;
+  /* Negrito com um tom branco suave */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
   .container {
-    width: 80%;
-    max-width: 800px;
-    background-color: rgba(0, 0, 0, 0.2); /* Fundo semi-transparente */
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    text-align: left; /* Alinhamento do texto à esquerda */
-  }
-  
-  h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: white;
-  }
-  
-  p, ul {
-    font-size: 18px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+    width: 90%;
+    padding: 20px;
   }
 
-  p {
-    text-align: justify; /* Justifica o texto das tags <p> */
+  h1 {
+    font-size: 28px;
   }
-  
-  ul {
-    text-align: justify; /* Alinhamento à esquerda para as listas */
+
+  p, ul {
+    font-size: 16px;
   }
-  
-  strong {
-    color: #f0f0f0; /* Negrito com um tom branco suave */
-  }
-  
-  /* Responsividade para dispositivos móveis */
-  @media (max-width: 768px) {
-    .container {
-      width: 90%;
-      padding: 20px;
-    }
-  
-    h1 {
-      font-size: 28px;
-    }
-  
-    p, ul {
-      font-size: 16px;
-    }
-  }
-  
+}

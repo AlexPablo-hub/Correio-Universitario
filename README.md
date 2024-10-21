@@ -25,11 +25,11 @@
 ### Passos para configurar o ambiente
 1. Clonar este repositório para sua máquina local:
 ```bash
-git clone https://github.com/AlexPablo-hub/correio-elegante-universitario.git
+git clone https://github.com/AlexPablo-hub/Correio-Universitario.git
 ```
 2. Navegue até o diretório do projeto:
 ```bash
-cd CorreioEleganteApp
+cd Correio-Universitario
 ```
 3. Instale as dependências do projeto.
 ```bash
@@ -47,14 +47,14 @@ Isso vai iniciar o servidor **Node.js** e gerar um QR code para conectar a conta
 
 ## 📝 Como Usar
 Acesse a página principal do projeto <http://localhost:3000.>
-Preencha o formulário com seu nome, telefone, mensagem, sala de entrega e nome do destinatário.
+Preencha o formulário com seu nome, telefone, sala de entrega, nome do destinatário e mensagem.
 Escolha um doce (Sonho de Valsa, Ouro Branco ou Bis).
 Envie a mensagem e acompanhe a confirmação.
 O valor total será calculado com base na escolha do doce e será mostrado na mensagem enviada via **WhatsApp** pelo telefone fornecido no formulário.
 
 ## 📂 Estrutura de Pastas
 ```perl
-CorreioEleganteApp/
+Correio-Universitario/
 │
 ├── node_modules/             # Arquivos do servidor Node.js.
 │
@@ -66,23 +66,36 @@ CorreioEleganteApp/
 │   ├── img/                  # Imagens usadas nas páginas
 │   │   ├── home.png
 │   │   ├── bis-seeklogo.png
-│   │   ├── logo.png
+│   │   ├── logo2.png
 │   │   ├── ouro-branco-seeklogo.png
 │   │   └── sonho-de-valsa-seeklogo.png
+│   ├── js/                  # Scrips Utilizados nos arquivos html
+│   │   ├── app.js
+│   │   └── home.js
 │   ├── home.html
 │   ├── app.html
+│   ├── termosdeuso.html
 │   └── confirmation.html
 │
 ├── src/
-│   ├── app.js               # Arquivo principal do servidor Node.js
+│   ├── index.js             # Arquivo principal do servidor Node.js
 |
 ├── package.json             # Configurações do projeto e dependências
 ├── package-lock.json        # Arquivo gerado com as dependências instaladas
 ├── README.md                # Arquivo de documentação do projeto
-└── LICENSE
+└── LICENSE                  # Arquivo de licença do projeto
 ```
-## Licença
+## 📝 Licença
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [Licença MIT](./LICENSE). para mais detalhes.
-=======
-# CorreioUniversitario
->>>>>>> c5d8c12e2a8c6be12419604fcad556e8174323d7
+
+## 👨‍💻 Desenvolvedor
+
+Este projeto foi desenvolvido por **Alex Pablo de Oliveira Moraes**. 
+
+Sou estudante de **Sistemas de Informação** na **UNEMAT**, apaixonado por tecnologia, programação e segurança de redes e tecnologias relacionadas ao desenvolvimento backend e segurança da informação.
+
+Você pode me encontrar nas redes sociais ou conferir meus outros projetos no meu perfil [GitHub](https://github.com/AlexPablo-hub).
+
+Se tiver alguma dúvida ou sugestão sobre o projeto, fique à vontade para entrar em contato!
+
+**Correio Elegante Universitário** é um projeto feito com dedicação e carinho para proporcionar uma experiência divertida e única entre os estudantes. Espero que você aproveite! 💌

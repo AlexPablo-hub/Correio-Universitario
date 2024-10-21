@@ -1,17 +1,18 @@
 {
-  "name": "correioeleganteapp",
+  "name": "correio-universitario",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlexPablo-hub/CorreioEleganteApp.git"
+    "url": "https://github.com/AlexPablo-hub/Correio-Universitario"
   },
   "dependencies": {
     "express": "^4.21.1",
+    "nodemon": "^3.1.7",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.26.0"
   }

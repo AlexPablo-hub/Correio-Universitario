@@ -63,7 +63,8 @@ body {
 .text-left {
     left: 20px;
     top: 20px;
-    writing-mode: vertical-rl; /* Coloca o texto na vertical */
+    writing-mode: vertical-rl;
+    /* Coloca o texto na vertical */
 }
 
 .text-right {

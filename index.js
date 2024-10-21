@@ -300,7 +300,7 @@ app.get('/confirmacao', bloquearAcessoDireto, (req, res) => {
 
 app.use(express.urlencoded({ extended: true })); // Middleware para decodificar os dados enviados via formulário
 
-const port = process.env.PORT || 8000;  // Use a variável de ambiente do Heroku
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Servidor rodando na porta ${port}`);
 });

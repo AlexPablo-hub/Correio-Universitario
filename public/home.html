@@ -6,20 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Correio Elegante Universitário</title>
   <link rel="icon" href="/img/logo2.png" type="image/png">
-  <link rel="stylesheet" href="css/home.css">
-  <script>
-    function redirectToApp() {
-      window.location.href = "/app"; // Redireciona para a rota /app
-    }
-
-    function toggleButton() {
-      const checkbox = document.getElementById('termos');
-      const button = document.getElementById('startButton');
-
-      // Habilita o botão se o checkbox estiver marcado
-      button.disabled = !checkbox.checked;
-    }
-  </script>
+  <link rel="stylesheet" href="/css/home.css">
+  <script src="/js/home.js"></script>
 </head>
 
 <body>
@@ -42,7 +30,8 @@
       <div class="terms">
         <input type="checkbox" id="termos" onclick="toggleButton()">
         <label for="termos">
-          Declaro que li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e <a href="/termos#politica" target="_blank">Política de Privacidade</a> do Correio Elegante Universitário.
+          Declaro que li e aceito os <a href="/termos" target="_blank">Termos de Uso</a> e <a href="/termos#politica"
+            target="_blank">Política de Privacidade</a> do Correio Elegante Universitário.
         </label>
       </div>
       <br>

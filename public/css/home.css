@@ -5,7 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Garante que a altura mínima do body seja 100% da viewport */
+    min-height: 100vh;
+    /* Garante que a altura mínima do body seja 100% da viewport */
     flex-direction: column;
     position: relative;
 }
@@ -18,7 +19,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px auto; /* Adiciona uma margem superior para evitar o corte */
+    margin: 20px auto;
+    /* Adiciona uma margem superior para evitar o corte */
     overflow: hidden;
 }
 
@@ -39,7 +41,8 @@ body {
     border-radius: 20px;
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: -20px; /* Ajusta a margem superior */
+    margin-top: -20px;
+    /* Ajusta a margem superior */
 }
 
 .content h1 {
@@ -84,7 +87,8 @@ body {
     .circle {
         width: 200px;
         height: 200px;
-        transform: translateY(0); /* Remove a elevação para evitar corte em telas pequenas */
+        transform: translateY(0);
+        /* Remove a elevação para evitar corte em telas pequenas */
     }
 
     .content {
